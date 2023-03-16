@@ -1,5 +1,5 @@
 <div class="card" style="width: 18rem;" *ngIf="producto">
-    <img src="https://picsum.photos/200/300" class="card-img-top" alt="...">
+    <img src="{{producto.url_imagen}}" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">{{producto.nombre_producto}}</h5>
       <p class="card-text">{{producto.caracteristicas_producto}}</p>
